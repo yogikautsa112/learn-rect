@@ -11,12 +11,17 @@
     padding: 1rem;
     color: white;
     border-radius: 10px;
-    margin: 1rem;
+    margin: .2rem ;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #like-btn {
-    background-color: rgb(6, 6, 6);
-    border: 1px black solid;
+    background-color: #03AED2;
     border-radius: 5px;
     padding: .2rem;
     -webkit-border-radius: 5px;
@@ -27,8 +32,7 @@
 }
 
 #dis-btn {
-    background-color: rgb(6, 6, 6);
-    border: 1px black solid;
+    background-color: #03AED2;
     border-radius: 5px;
     padding: .2rem;
     -webkit-border-radius: 5px;

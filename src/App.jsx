@@ -1,13 +1,12 @@
 import Header from "./Header"
-import MenuResto from "./MenuResto"
+import TodoList from "./TodoList.jsx"
 
 function App() {
   return (
     <>
       <Header />
-      <MenuResto />
+      <TodoList />
     </>
   )
 }
-  
 export default App
